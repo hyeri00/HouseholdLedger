@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1CD2E2242CDFC07400856E86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CD2E20B2CDFC07200856E86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CD2E2122CDFC07200856E86;
+			remoteInfo = myHouseholdLedger;
+		};
+		1CD2E22E2CDFC07400856E86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CD2E20B2CDFC07200856E86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CD2E2122CDFC07200856E86;
+			remoteInfo = myHouseholdLedger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CD2E2132CDFC07200856E86 /* myHouseholdLedger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myHouseholdLedger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD2E2232CDFC07400856E86 /* myHouseholdLedgerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myHouseholdLedgerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD2E22D2CDFC07400856E86 /* myHouseholdLedgerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myHouseholdLedgerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1CD2E2152CDFC07200856E86 /* myHouseholdLedger */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = myHouseholdLedger;
+			sourceTree = "<group>";
+		};
+		1CD2E2262CDFC07400856E86 /* myHouseholdLedgerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = myHouseholdLedgerTests;
+			sourceTree = "<group>";
+		};
+		1CD2E2302CDFC07400856E86 /* myHouseholdLedgerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = myHouseholdLedgerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CD2E2102CDFC07200856E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CD2E2202CDFC07400856E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CD2E22A2CDFC07400856E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CD2E20A2CDFC07200856E86 = {
+			isa = PBXGroup;
+			children = (
+				1CD2E2152CDFC07200856E86 /* myHouseholdLedger */,
+				1CD2E2262CDFC07400856E86 /* myHouseholdLedgerTests */,
+				1CD2E2302CDFC07400856E86 /* myHouseholdLedgerUITests */,
+				1CD2E2142CDFC07200856E86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CD2E2142CDFC07200856E86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CD2E2132CDFC07200856E86 /* myHouseholdLedger.app */,
+				1CD2E2232CDFC07400856E86 /* myHouseholdLedgerTests.xctest */,
+				1CD2E22D2CDFC07400856E86 /* myHouseholdLedgerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CD2E2122CDFC07200856E86 /* myHouseholdLedger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CD2E2372CDFC07400856E86 /* Build configuration list for PBXNativeTarget "myHouseholdLedger" */;
+			buildPhases = (
+				1CD2E20F2CDFC07200856E86 /* Sources */,
+				1CD2E2102CDFC07200856E86 /* Frameworks */,
+				1CD2E2112CDFC07200856E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1CD2E2152CDFC07200856E86 /* myHouseholdLedger */,
+			);
+			name = myHouseholdLedger;
+			packageProductDependencies = (
+			);
+			productName = myHouseholdLedger;
+			productReference = 1CD2E2132CDFC07200856E86 /* myHouseholdLedger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CD2E2222CDFC07400856E86 /* myHouseholdLedgerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CD2E23A2CDFC07400856E86 /* Build configuration list for PBXNativeTarget "myHouseholdLedgerTests" */;
+			buildPhases = (
+				1CD2E21F2CDFC07400856E86 /* Sources */,
+				1CD2E2202CDFC07400856E86 /* Frameworks */,
+				1CD2E2212CDFC07400856E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CD2E2252CDFC07400856E86 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1CD2E2262CDFC07400856E86 /* myHouseholdLedgerTests */,
+			);
+			name = myHouseholdLedgerTests;
+			packageProductDependencies = (
+			);
+			productName = myHouseholdLedgerTests;
+			productReference = 1CD2E2232CDFC07400856E86 /* myHouseholdLedgerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CD2E22C2CDFC07400856E86 /* myHouseholdLedgerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CD2E23D2CDFC07400856E86 /* Build configuration list for PBXNativeTarget "myHouseholdLedgerUITests" */;
+			buildPhases = (
+				1CD2E2292CDFC07400856E86 /* Sources */,
+				1CD2E22A2CDFC07400856E86 /* Frameworks */,
+				1CD2E22B2CDFC07400856E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CD2E22F2CDFC07400856E86 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1CD2E2302CDFC07400856E86 /* myHouseholdLedgerUITests */,
+			);
+			name = myHouseholdLedgerUITests;
+			packageProductDependencies = (
+			);
+			productName = myHouseholdLedgerUITests;
+			productReference = 1CD2E22D2CDFC07400856E86 /* myHouseholdLedgerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CD2E20B2CDFC07200856E86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					1CD2E2122CDFC07200856E86 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					1CD2E2222CDFC07400856E86 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 1CD2E2122CDFC07200856E86;
+					};
+					1CD2E22C2CDFC07400856E86 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 1CD2E2122CDFC07200856E86;
+					};
+				};
+			};
+			buildConfigurationList = 1CD2E20E2CDFC07200856E86 /* Build configuration list for PBXProject "myHouseholdLedger" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CD2E20A2CDFC07200856E86;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1CD2E2142CDFC07200856E86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CD2E2122CDFC07200856E86 /* myHouseholdLedger */,
+				1CD2E2222CDFC07400856E86 /* myHouseholdLedgerTests */,
+				1CD2E22C2CDFC07400856E86 /* myHouseholdLedgerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CD2E2112CDFC07200856E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CD2E2212CDFC07400856E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CD2E22B2CDFC07400856E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CD2E20F2CDFC07200856E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CD2E21F2CDFC07400856E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CD2E2292CDFC07400856E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CD2E2252CDFC07400856E86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CD2E2122CDFC07200856E86 /* myHouseholdLedger */;
+			targetProxy = 1CD2E2242CDFC07400856E86 /* PBXContainerItemProxy */;
+		};
+		1CD2E22F2CDFC07400856E86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CD2E2122CDFC07200856E86 /* myHouseholdLedger */;
+			targetProxy = 1CD2E22E2CDFC07400856E86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CD2E2352CDFC07400856E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CD2E2362CDFC07400856E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CD2E2382CDFC07400856E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"myHouseholdLedger/Preview Content\"";
+				DEVELOPMENT_TEAM = XBK9RNRMN8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hyeri.myHouseholdLedger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CD2E2392CDFC07400856E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"myHouseholdLedger/Preview Content\"";
+				DEVELOPMENT_TEAM = XBK9RNRMN8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hyeri.myHouseholdLedger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1CD2E23B2CDFC07400856E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XBK9RNRMN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hyeri.myHouseholdLedgerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myHouseholdLedger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/myHouseholdLedger";
+			};
+			name = Debug;
+		};
+		1CD2E23C2CDFC07400856E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XBK9RNRMN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hyeri.myHouseholdLedgerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myHouseholdLedger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/myHouseholdLedger";
+			};
+			name = Release;
+		};
+		1CD2E23E2CDFC07400856E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XBK9RNRMN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hyeri.myHouseholdLedgerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myHouseholdLedger;
+			};
+			name = Debug;
+		};
+		1CD2E23F2CDFC07400856E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XBK9RNRMN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hyeri.myHouseholdLedgerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myHouseholdLedger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CD2E20E2CDFC07200856E86 /* Build configuration list for PBXProject "myHouseholdLedger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CD2E2352CDFC07400856E86 /* Debug */,
+				1CD2E2362CDFC07400856E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CD2E2372CDFC07400856E86 /* Build configuration list for PBXNativeTarget "myHouseholdLedger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CD2E2382CDFC07400856E86 /* Debug */,
+				1CD2E2392CDFC07400856E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CD2E23A2CDFC07400856E86 /* Build configuration list for PBXNativeTarget "myHouseholdLedgerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CD2E23B2CDFC07400856E86 /* Debug */,
+				1CD2E23C2CDFC07400856E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CD2E23D2CDFC07400856E86 /* Build configuration list for PBXNativeTarget "myHouseholdLedgerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CD2E23E2CDFC07400856E86 /* Debug */,
+				1CD2E23F2CDFC07400856E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CD2E20B2CDFC07200856E86 /* Project object */;
+}
